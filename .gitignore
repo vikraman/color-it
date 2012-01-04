@@ -1,0 +1,8 @@
+*~
+*.o
+*.out
+*.gch
+*.orig
+*.py
+*.txt
+main

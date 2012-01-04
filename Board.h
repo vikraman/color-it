@@ -19,14 +19,14 @@ public:
             else
                 throw InitException();
         }
-    char getColorOfCell(int row, int col) const
+    char getCell(int row, int col) const
         {
             if (row >= 0 && row < cells.size() && col >= 0 && col < cells[0].size())
                 return cells[row][col];
             else
                 throw InternalException();
         }
-    void setColorOfCell(char color, int row, int col)
+    void setCell(char color, int row, int col)
         {
             if (row >= 0 && row < cells.size() && col >= 0 && col < cells[0].size())
                 cells[row][col] = color;
